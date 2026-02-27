@@ -8,7 +8,7 @@ crate-type = ["cdylib"]
 
 [dependencies]
 argon2 = "0.5.3"
-getrandom = { version = "0.4", features = ["wasm_js"] }
+getrandom = { version = "0.2", features = ["js"] }
 rand_core = { version = "0.6", features = ["getrandom"] }
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
